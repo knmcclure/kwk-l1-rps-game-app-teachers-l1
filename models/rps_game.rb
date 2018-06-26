@@ -1,6 +1,8 @@
 class RPSGame
 
-  
+  def initialize(play)
+    @play = play
+  end
 
 
 
