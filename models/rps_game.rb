@@ -4,7 +4,7 @@ class RPSGame
     @play = play
   end
   
-  def PlayTypeError
+  def playTypeError
     if @play != "rock" || @play != "scissors" @play !="paper"
       puts "error"
   end
