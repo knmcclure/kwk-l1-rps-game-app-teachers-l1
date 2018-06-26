@@ -3,6 +3,11 @@ class RPSGame
   def initialize(play)
     @play = play
   end
+  
+  def PlayTypeError
+    if @play != "rock" || @play != "scissors" @play !="paper"
+      
+  end
 
 
 
